@@ -1,0 +1,17 @@
+body{
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* padding: 15px; */
+}
+
+.food, .drink {
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+}
